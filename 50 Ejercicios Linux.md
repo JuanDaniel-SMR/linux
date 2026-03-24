@@ -1,6 +1,6 @@
 RELACIÓN 2.- EJERCICIOS COMANDOS LINUX
 
-1. Trabajando con directorios y archivos
+Trabajando con directorios y archivos
     1. Usa el comando pwd para mostrar tu directorio actual.
     2. Crea un nuevo directorio llamado ‘practica’ con el comando mkdir.
     3. Ingresa al directorio ‘practica’ utilizando cd.
@@ -11,7 +11,7 @@ RELACIÓN 2.- EJERCICIOS COMANDOS LINUX
     8. Elimina ‘ejemplo.txt’ usando el comando rm.
     9. Crea un subdirectorio llamado ‘subpractica’ con mkdir.
     10. Usa el comando rmdir para intentar eliminar ‘subpractica’ (nota por qué puede o no funcionar).
-2. Gestión de usuarios y permisos
+Gestión de usuarios y permisos
     11. Crea un nuevo usuario llamado ‘usuario_prueba’ con el comando useradd (necesitarás derechos de superusuario).
     12. Establece una contraseña para ‘usuario_prueba’ con passwd.
     13. Usa id para ver la información del UID y GID de ‘usuario_prueba’.
@@ -22,7 +22,7 @@ RELACIÓN 2.- EJERCICIOS COMANDOS LINUX
     18. Usa chgrp para cambiar el grupo de ‘ejemplo_renombrado.txt’ a ‘grupo_prueba’.
     19. Visualiza los permisos del archivo ‘ejemplo_renombrado.txt’ con ls -l.
     20. Elimina el usuario ‘usuario_prueba’ con el comando userdel.
-3. Manipulación y búsqueda de contenido
+Manipulación y búsqueda de contenido
     21. Escribe «Hola, Linux!» dentro de ‘ejemplo_renombrado.txt’ usando echo.
     22. Usa cat para ver el contenido de ‘ejemplo_renombrado.txt’.
     23. Con grep, busca la palabra «Linux» dentro de ‘ejemplo_renombrado.txt’.
@@ -33,7 +33,7 @@ RELACIÓN 2.- EJERCICIOS COMANDOS LINUX
     28. Combina los comandos sort y echo para escribir y ordenar alfabéticamente una lista de frutas.
     29. Usa wc para contar las palabras en ‘ejemplo_renombrado.txt’.
     30. Comprime ‘ejemplo_renombrado.txt’ usando gzip.
-4. Gestión de paquetes y procesos
+Gestión de paquetes y procesos
     31. Instala el paquete «htop» usando apt-get o el gestor de paquetes de tu distribución.
     32. Usa htop para visualizar los procesos en ejecución.
     33. Identifica el PID de algún proceso y deténlo con kill.
@@ -44,7 +44,7 @@ RELACIÓN 2.- EJERCICIOS COMANDOS LINUX
     38. Actualiza todos los paquetes instalados con apt-get upgrade o el comando correspondiente.
     39. Revisa el estado de un servicio (por ejemplo, ssh) con systemctl.
     40. Instala y utiliza screen para iniciar una sesión persistente en el terminal.
-5. Trabajando con redes
+Trabajando con redes
     41. Usa ping para comprobar la conectividad con google.com.
     42. Con el comando ifconfig o ip a, revisa la configuración de tu red.
     43. Usa netstat para visualizar las conexiones de red activas.
