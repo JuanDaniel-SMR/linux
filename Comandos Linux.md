@@ -1,38 +1,91 @@
-# Comandos Linux
+# 🐧 Comandos Linux
 
-man: Enseña un manual (+ lo que quieras saber como va)
-whoami: Te muestra desde cual usuario estas conectado
-who: Te muestra todas las sesiones abiertas de todos los usuarios conectados más desde que ip y la fecha.
-w: Muestra los usuarios conectados (SIN ENSEÑAR LAS SESIONES)
-date: Enseña la fecha de hoy
-cal: Enseña el calendario
-exit: Salir de la sesión
-free: enseñar la memoria disponible en el equipo
-pwd: directorio de trabajo actual
-cd: cambia de directorio
-ls: contenido del directorio actual
-	-a: ver documentos ocultos
-	-*: los que empiezan por ()
-file: te dice la información del fichero
-touch: crear un fichero
-rm: borras un fichero ya creado
-echo: escribes (en un fichero por ejemplo)
-cat: ves TODO lo que hay en un fichero
-more: ver lo que hay en un fichero (por páginas)
-less: ver lo que hay un fichero (por páginas sin cargarlo entero, liberando memoria)
-mkdir: crea una carpeta
-rmdir: borra una carpeta
-tree: ves tus carpetas y ficheros de forma esquematizada
-mv: cambiar nombre directorios y ficheros
-sl: aparece un tren animado
-cmatrix: aparece la matrix
-hollywood: pareces hacker,  deja nombre de colores
-cowsay: Dibujo de una vaca que te habla
-figlet: Escribe un texto y se escribirá con Lettering.
-fortune: Da una frase célebre
-TUBERÍAS: [ | ] Conectas la salida de un comando a otro
->:Añade al archivo
->>: Machaca al archivo anterior y añade lo que quieras
-byobu-disable-prompt + exit: Desactivar modo “Byobu”, (colores de usar comandos como por ejemplo “hollywood”)
-sudo pkill -f sshd: Echa a todos los usuarios del servidor (ROOT)
-sudo passwd  (usuario) - Cambiar contraseña de un usuario (SIENDO ROOT)
+## Información del sistema
+
+| Comando | Descripción |
+|---------|-------------|
+| `man <comando>` | Muestra el manual de un comando |
+| `whoami` | Muestra el usuario actual conectado |
+| `who` | Muestra todas las sesiones abiertas, IPs y fechas de conexión |
+| `w` | Muestra los usuarios conectados (sin mostrar sesiones) |
+| `date` | Muestra la fecha y hora actual |
+| `cal` | Muestra el calendario del mes actual |
+| `free` | Muestra la memoria disponible en el equipo |
+
+---
+
+## Navegación y sistema de ficheros
+
+| Comando | Descripción |
+|---------|-------------|
+| `pwd` | Muestra el directorio de trabajo actual |
+| `cd <ruta>` | Cambia de directorio |
+| `ls` | Lista el contenido del directorio actual |
+| `ls -a` | Incluye ficheros ocultos |
+| `ls -<letra>*` | Filtra ficheros que empiezan por una letra |
+| `tree` | Muestra carpetas y ficheros de forma esquematizada |
+
+---
+
+## Gestión de ficheros y directorios
+
+| Comando | Descripción |
+|---------|-------------|
+| `file <fichero>` | Muestra información sobre un fichero |
+| `touch <nombre>` | Crea un fichero vacío |
+| `rm <fichero>` | Borra un fichero |
+| `mkdir <nombre>` | Crea una carpeta |
+| `rmdir <nombre>` | Borra una carpeta vacía |
+| `mv <origen> <destino>` | Mueve o renombra ficheros y directorios |
+
+---
+
+## Lectura y escritura de ficheros
+
+| Comando | Descripción |
+|---------|-------------|
+| `cat <fichero>` | Muestra todo el contenido de un fichero |
+| `more <fichero>` | Muestra el contenido por páginas |
+| `less <fichero>` | Como `more`, pero sin cargar el fichero entero (libera memoria) |
+| `echo <texto>` | Escribe texto (en pantalla o redirigido a un fichero) |
+
+---
+
+## Redirección y tuberías
+
+| Operador | Descripción |
+|----------|-------------|
+| `\|` | **Tubería** — conecta la salida de un comando a la entrada de otro |
+| `>` | Sobreescribe (machaca) el contenido de un fichero con la salida |
+| `>>` | Añade la salida al final de un fichero sin sobreescribirlo |
+
+---
+
+## Comandos de sesión
+
+| Comando | Descripción |
+|---------|-------------|
+| `exit` | Sale de la sesión actual |
+| `byobu-disable-prompt` + `exit` | Desactiva el modo Byobu (colores de `hollywood`, etc.) |
+
+---
+
+## Administración (requiere permisos)
+
+| Comando | Descripción |
+|---------|-------------|
+| `sudo pkill -f sshd` | ⚠️ Echa a todos los usuarios del servidor **(solo ROOT)** |
+| `sudo passwd <usuario>` | Cambia la contraseña de un usuario **(siendo ROOT)** |
+
+---
+
+## Comandos de entretenimiento 🎉
+
+| Comando | Descripción |
+|---------|-------------|
+| `sl` | Aparece un tren animado |
+| `cmatrix` | Simula la pantalla de Matrix |
+| `hollywood` | Simula una pantalla de hacker con colores |
+| `cowsay <texto>` | Una vaca dibujada que "dice" el texto |
+| `figlet <texto>` | Escribe el texto en estilo ASCII art (lettering) |
+| `fortune` | Muestra una frase célebre aleatoria |
