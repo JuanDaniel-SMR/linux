@@ -52,6 +52,7 @@
 | `\|` | **Tubería** — conecta la salida de un comando a la entrada de otro |
 | `>` | Sobreescribe (machaca) el contenido de un fichero con la salida |
 | `>>` | Añade la salida al final de un fichero sin sobreescribirlo |
+| `<`| Añade la salida del fichero al comando |
 
 ---
 
