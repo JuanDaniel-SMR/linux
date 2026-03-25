@@ -90,7 +90,7 @@
 ---
 
 <div align="center">
-
-**⭐ Si te fue útil, dale una estrella al repositorio ⭐**
+⭐ Hecho por Juan Daniel Porras. ⭐
+</div>
 
 </div>
