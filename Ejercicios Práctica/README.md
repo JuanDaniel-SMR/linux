@@ -1,1 +1,1 @@
-## Ejercicios de Práctica para comandos de Linux.
+Ejercicios de Práctica para comandos de Linux.
