@@ -86,4 +86,4 @@
 | 49 | Conectarse a un servidor por SFTP | `sftp [usuario]@[IP o dominio]` |
 | 50 | Resolver un dominio a su dirección IP | `host [dominio]` |
 
----¡
+---
