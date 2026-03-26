@@ -2,18 +2,18 @@
 
 ## 📋 Índice — Comandos Linux
  
-- [🖥️ Sistema](#-sistema)
-- [📁 Navegación y sistema de ficheros y directorios](#-navegación-y-sistema-de-ficheros-y-directorios)
-- [📄 Lectura y escritura de ficheros](#-lectura-y-escritura-de-ficheros)
-- [🔗 Enlaces](#-enlaces)
-- [🔀 Redirección y tuberías](#-redirección-y-tuberías)
-- [🔐 Comandos de sesión](#-comandos-de-sesión)
-- [👥 Usuarios y Grupos](#-usuarios-y-grupos)
-- [⚙️ Comandos sobre procesos](#️-comandos-sobre-procesos)
-- [🔒 Permisos](#-permisos)
-- [🌐 Redes](#-redes)
-- [🎉 Comandos de entretenimiento](#-comandos-de-entretenimiento-)
-
+- [🖥️ Sistema](#sistema)
+- [📁 Navegación y sistema de ficheros y directorios](#navegación-y-sistema-de-ficheros-y-directorios)
+- [📄 Lectura y escritura de ficheros](#lectura-y-escritura-de-ficheros)
+- [🔗 Enlaces](#enlaces)
+- [🔀 Redirección y tuberías](#redirección-y-tuberías)
+- [🔐 Comandos de sesión](#comandos-de-sesión)
+- [👥 Usuarios y Grupos](#usuarios-y-grupos)
+- [⚙️ Comandos sobre procesos](#comandos-sobre-procesos)
+- [🔒 Permisos](#permisos)
+- [🌐 Redes](#redes)
+- [🎉 Comandos de entretenimiento](#comandos-de-entretenimiento-)
+ 
 ---
 
 ## Sistema 
