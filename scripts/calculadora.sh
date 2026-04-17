@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Bienvenido a mi calculadora."
-read -p "Deseas SUMAR, RESTAR, MULTIPLICAR o DIVIDIR?" op
+read -p "Deseas SUMAR, RESTAR, MULTIPLICAR o DIVIDIR? " op
 if [ "$op" = SUMAR ]; then
 	read -p "Has elegido sumar, escriba el primer número. " num1
 	read -p "Tu primer número es $num1, escriba el siguiente numero." num2
