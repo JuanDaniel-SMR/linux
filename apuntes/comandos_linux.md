@@ -80,6 +80,7 @@
 | `echo <texto>` | Escribe texto (en pantalla o redirigido a un fichero) |
 | `head <fichero>` | Muestra las primeras líneas de un fichero |
 | `tail <fichero>`| Muestra las ultimas líneas de un fichero |
+| `vi <fichero>` | Editor por defecto (obsoleto.) |
 | `nano <fichero>` | Editor de texto para ficheros. |
 | `gedit <fichero>` | Editor de texto de GNOME. |
 
