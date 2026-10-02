@@ -14,7 +14,7 @@
 9. 🔒 [Permisos](#permisos)
 10. 🌐 [Redes](#redes)
 11. 🎉 [Comandos de entretenimiento](#comandos-de-entretenimiento-)
-12. 🖥 [Servidores y Servicios](#servidores-y-servicios)
+12. ⚙️ [Servidores y Servicios](#servidores-y-servicios)
  
 ---
 ##  Sistema 
