@@ -1,2 +1,2 @@
-# Apuntes de Linux 🐧
-Apuntes de Linux y Scripts
+# Apuntes de Linux 🐧 - SMR [IES Salmedina]
+Apuntes de Linux y Scripts 
