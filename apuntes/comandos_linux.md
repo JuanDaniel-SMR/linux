@@ -225,7 +225,6 @@
 | `ping -c 4` | Comprueba la conectividad de red. |
 | `nano /etc/network/interfaces` | Edita el fichero de configuración de red. |
 | `nano /etc/resolv.conf` | Edita el fichero de configuración de DNS. |
-| `comando` | descripción |
 
 ---
 
