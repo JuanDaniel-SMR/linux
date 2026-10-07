@@ -219,12 +219,12 @@
 
 | Comando | Descripción |
 |---------|-------------|
-| `comando` | descripción |
-| `comando` | descripción |
-| `comando` | descripción |
-| `comando` | descripción |
-| `comando` | descripción |
-| `comando` | descripción |
+| `ip a` | Muestra la ip y los parámetros de las tarjetas de red. |
+| `ip r` | Muestra las tablas de routeo. |
+| `systemctl restart networking` | Reinicia el servicio de red. |
+| `ping -c 4` | Comprueba la conectividad de red. |
+| `nano /etc/network/interfaces` | Edita el fichero de configuración de red. |
+| `nano /etc/resolv.conf` | Edita el fichero de configuración de DNS. |
 | `comando` | descripción |
 
 ---
