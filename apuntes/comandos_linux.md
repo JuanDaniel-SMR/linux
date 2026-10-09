@@ -230,7 +230,7 @@
 | `docker images` | Lista las imágenes descargadas localmente en el servidor. |
 | `docker compose up -d` | Lee el archivo docker-compose.yml y arranca todos los servicios en segundo plano (-d). |
 | `docker compose up down` | Detiene y elimina los contenedores y redes creados por Docker Compose. |
-| `ssh (user)@ipdelservidor` | Entras a otro ordenador (que se encuentre en la misma red) como uno de sus usuarios (normalmente a un servidor) |
+| `ssh user@ipdelservidor` | Entras a un server o pc (que se encuentre en la misma red) como uno de sus usuarios |
 
 ---
 
